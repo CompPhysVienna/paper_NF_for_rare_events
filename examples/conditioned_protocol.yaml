@@ -1,0 +1,44 @@
+- CV_range:
+  - -3
+  - 3
+  LR: 0.01
+  T:
+  - 0.5
+  - 5
+  batch_size: 128
+  clamp_val: null
+  conditions_per_batch: 1
+  epochs: 100
+  w_angle: null
+  w_xz: 1
+  w_zx: 0
+  
+- CV_range:
+  - -3
+  - 3
+  LR: 0.001
+  T:
+  - 0.5
+  - 5
+  batch_size: 2500
+  clamp_val: 1000000.0
+  conditions_per_batch: 50
+  epochs: 100
+  w_angle: null
+  w_xz: 1
+  w_zx: 1
+  
+- CV_range:
+  - -3
+  - 3
+  LR: 0.0001
+  T:
+  - 0.5
+  - 5
+  batch_size: 2500
+  clamp_val: 10000.0
+  conditions_per_batch: 50
+  epochs: 100
+  w_angle: null
+  w_xz: 1
+  w_zx: 1

@@ -1,0 +1,49 @@
+  
+- epochs: 200
+  LR: 0.001
+  batch_size: 128
+  T:
+  - 0.05
+  - 0.3
+  clamp_val: null
+  w_xz: 1
+  w_zx: 0
+  conditions_per_batch: 1
+  w_angle: 0
+  
+- epochs: 400
+  LR: 0.0001
+  batch_size: 2500
+  T:
+  - 0.05
+  - 0.3
+  clamp_val: 50000.0
+  conditions_per_batch: 50
+  w_xz: 1
+  w_zx: 0.0001
+  w_angle: 1
+  
+- epochs: 400
+  LR: 0.0001
+  batch_size: 2500
+  T:
+  - 0.05
+  - 0.3
+  clamp_val: 10000.0
+  conditions_per_batch: 50
+  w_xz: 1
+  w_zx: 0.001
+  w_angle: 1
+  
+- epochs: 400
+  LR: 0.0001
+  batch_size: 2500
+  T:
+  - 0.05
+  - 0.3
+  clamp_val: 1000.0
+  conditions_per_batch: 50
+  w_xz: 1
+  w_zx: 0.01
+  w_angle: 1
+  
